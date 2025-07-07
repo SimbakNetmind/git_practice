@@ -60,3 +60,18 @@ git pull origin main --rebase actualiza tu rama local.
 git stash pop vuelve a aplicar tus cambios guardados.
 
 
+
+git add .
+git commit -m "Mis cambios locales"
+git pull origin main --rebase
+
+git push --set-upstream origin main
+
+git push
+
+
+
+
+
+
+
