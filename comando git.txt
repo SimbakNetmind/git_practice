@@ -1,0 +1,4 @@
+git -h
+git init
+
+git status
