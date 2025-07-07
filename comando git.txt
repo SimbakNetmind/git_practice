@@ -61,6 +61,7 @@ git stash pop vuelve a aplicar tus cambios guardados.
 
 
 
+
 git add .
 git commit -m "Mis cambios locales"
 git pull origin main --rebase
@@ -70,6 +71,14 @@ git push --set-upstream origin main
 git push
 
 git pull
+
+git checkout cool_feature
+
+
+------------fix eeror
+
+git merge main
+
 
 
 
