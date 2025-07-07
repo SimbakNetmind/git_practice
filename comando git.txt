@@ -36,3 +36,27 @@ Si está mal escrita, corrígela con:
 git remote set-url origin https://github.com/SimbakNetmind/git_practice.git
 
 
+-----------------------------------------
+gh --version
+gh auth login
+gh auth logout
+
+
+-------------------
+
+git pull origin main --rebase
+
+git push --set-upstream origin main
+
+
+//Solo en emerecias puede ser peligrosa
+git push --force origin main
+--------------
+
+git stash guarda tus cambios y deja tu working directory limpio.
+
+git pull origin main --rebase actualiza tu rama local.
+
+git stash pop vuelve a aplicar tus cambios guardados.
+
+
