@@ -69,6 +69,8 @@ git push --set-upstream origin main
 
 git push
 
+git pull
+
 
 
 
