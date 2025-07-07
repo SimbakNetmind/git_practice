@@ -2,3 +2,37 @@ git -h
 git init
 
 git status
+
+git add .
+
+git commit -m "add test file"
+
+git  config  --global user.name "SimbakNetmind"
+git  config  --global user.email "simbak.netmind@gmail.com"
+
+// Este archivo se encuenta el las capret de usuario donde
+//se Guranda las credenciales del usuario 
+.gitconfig
+
+git remote add origin  "nombre del repositorio"
+
+git remote -v
+
+git branch
+
+git log
+
+git config credential.helper store
+
+git push --set-upstream origin main
+
+
+
+git remote -v
+
+
+Si está mal escrita, corrígela con:
+
+git remote set-url origin https://github.com/SimbakNetmind/git_practice.git
+
+
